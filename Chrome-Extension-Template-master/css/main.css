@@ -20,13 +20,6 @@ div#main-title {
     font-weight: bold;
 }
 
-img#main-image {
-    display: block;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 div#main-about-text {
     margin-top: 10px;
     text-align: center;
@@ -42,13 +35,33 @@ div#title {
 
 div#row {
     width: 300px;
+    display: flex;
     margin: 5px;
     background: #DDD;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 
 
-.a {
+div#column {
+
+    width: 150px;
+    margin: 5px;
+    background: #DDD;
+    /*border-radius: 5px;*/
+    text-align:left;
+}
+
+div#price {
+
+    width: 300px;
+    margin: 5px;
+    background: #DDD;/*
+    border-radius: 5px;*/
+    text-align:center;
+}
+
+
+a.classbutton {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
