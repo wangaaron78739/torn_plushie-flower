@@ -23,6 +23,12 @@
         "default_popup": "html/main.html"
     },
 
+    "content_scripts": [{
+        "matches": ["https://www.torn.com/pmarket.php*"],
+        "js": [ "js/jquery-1.9.1.min.js", "js/moment.min.js","js/tornAPI.js", "js/test.js"],
+        "css": ["css/pointster.css"],
+        "run_at": "document_end"
+    }],
     //additional
     "options_page": "html/options.html",
     "homepage_url": "http://yourdomainhere.com/"

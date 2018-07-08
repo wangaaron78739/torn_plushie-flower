@@ -1,0 +1,13 @@
+.psitem { margin-left: 10px !important; cursor: default;}
+.psitem span { cursor: help;}
+.pstotal { width: 107px !important; }
+.psiprice { width: 107px !important; }
+.pspoints { width: 50px !important; }
+.pscosteach { width: 107px !important; text-align: right !important; }
+.psname { width: 324px !important; }
+li[id^='li'] img { vertical-align: middle; margin-left: 10px; }
+li span[name^='owned'] { font-weight: bold; }
+ul.ulps { font-size: 0; letter-spacing: 0; margin: 0; line-height: 0;}
+.spgreen { color: #02e400; }
+.spred { color: #ff0000 }
+.myprice { text-align: right; width: 100px; height: 20px; }
